@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        font-family: "Kumbh Sans", sans-serif;
+        font-size: 12px;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+        /* Text */
+        color: #1c1d36;
+        color: #f57c57;
+        color: #4a4b5e;
+        color: #787887;
+
+        /* backround */
+        color: #ae66e8;
+        color: #6666e8;
+        color: #e8e8e8;
+      }
+    </style>
+  </head>
+  <body
+    class="h-screen bg-gradient-to-b from-[#6666e8] to-[#ae66e8] bg-no-repeat bg-cover flex justify-center items-center flex-col"
+  >
+    <div class="relative">
+      <img
+        class="absolute"
+        src="./images/illustration-woman-online-mobile.svg"
+        alt=""
+      />
+    </div>
+    <section class="bg-[#e8e8e8] w-3/4 px-8 rounded-xl">
+      <div class="container">
+        <h1 class="text-2xl font-bold text-center mt-12 mb-8">FAQ</h1>
+        <div class="poin">
+          <button class="title flex items-center justify-between w-full">
+            <p>How many team members can I invite?</p>
+            <img src="./images/icon-arrow-down.svg" alt="" />
+          </button>
+          <div class="item hidden">
+            <p class="text-[#787887] w-[90%]">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </div>
+          <hr class="h-[0.15rem] text-[#787887] bg-[#787887]" />
+        </div>
+        <div class="poin">
+          <button class="title flex items-center justify-between w-full">
+            <p>What is the maximum file upload size?</p>
+            <img src="./images/icon-arrow-down.svg" alt="" />
+          </button>
+
+          <div class="item hidden">
+            <p class="text-[#787887] w-[90%]">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </div>
+          <hr class="h-[0.15rem] text-[#787887] bg-[#787887]" />
+        </div>
+        <div class="poin">
+          <button class="title flex items-center justify-between w-full">
+            <p>How do I reset my password?</p>
+            <img src="./images/icon-arrow-down.svg" alt="" />
+          </button>
+          <div class="item hidden">
+            <p class="text-[#787887] w-[90%]">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </div>
+          <hr class="h-[0.15rem] text-[#787887] bg-[#787887]" />
+        </div>
+        <div class="poin">
+          <button class="title flex items-center justify-between w-full">
+            <p>Can I cancel my subscription?</p>
+            <img src="./images/icon-arrow-down.svg" alt="" />
+          </button>
+          <div class="item hidden">
+            <p class="text-[#787887] w-[90%]">
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
+          </div>
+          <hr class="h-[0.15rem] text-[#787887] bg-[#787887]" />
+        </div>
+        <div class="poin mb-10">
+          <button class="title flex items-center justify-between w-full">
+            <p>Do you provide additional support?</p>
+            <img src="./images/icon-arrow-down.svg" alt="" />
+          </button>
+          <div class="item hidden">
+            <p class="text-[#787887] w-[90%]">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </div>
+          <hr class="h-[0.15rem] text-[#787887] bg-[#787887]" />
+        </div>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Agus Setiawan</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
